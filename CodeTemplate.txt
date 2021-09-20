@@ -2,26 +2,25 @@ CODE TEMPLATE:
 //This is a single line comment (notes that won't be read as instructions to the computer).
 //Different syntax is used for comments depending on the language.
 
-//CHANGE ME: Add the title of your game
-//CHANGE ME: Add your name
+//Generic Rpg Npc: a simlulator
+//Mark Detrick
 
 
-if (CHANGE ME: condition # 1) {
-    //Add event below
+if (Hungry bar below 50%) {Eat 
 } else {
-    //Add event below
+    continue adventuring
 }
 
-if (CHANGE ME: condition # 2) {
-    //Add event below
+if (in combat and health below 50%) {
+    consume health potion on turn
 } else {
-    //Add event below
+    Attack nearest monster
 }
 
-if (CHANGE ME: condition # 3) {
-    //Add event below
+if (talked to) {
+    advance dialog
 } else {
-    //Add event below
+    standby for interaction
 }
 
 
